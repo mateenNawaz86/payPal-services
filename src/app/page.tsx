@@ -1,10 +1,12 @@
 import { Navbar } from "@/base-components/nav-bar";
+import { Services } from "@/components/services/index";
+import { Layout } from "@/layout";
 
 export default function Home() {
   return (
-    <div>
+    <Layout>
       <Navbar />
-      <p>Hello, World!</p>
-    </div>
+      <Services />
+    </Layout>
   );
 }
